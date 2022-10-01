@@ -27,7 +27,9 @@ class App extends React.Component {
       // Hold everything in a main container
       <div className='main-container'>
         <h1>When2Meet</h1> <br></br>
-        Schedule your Meeting with the team
+        Schedule your Meeting with the team <br></br>
+        Toggle a time slot box or drag a rectangle region of boxes to switch their availability status. <br></br>
+        The availability that you entered will be immediately reflected on the right group's availability panel.
         {/* Container for the schedule selector */}
         <div className='container'>
           <div className='scheduler-div'>
