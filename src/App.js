@@ -47,7 +47,7 @@ class App extends React.Component {
                 // Link the displayed selection with schedule array
                 selection={this.state.schedule}
                 // The first date show on the availability heatmap
-                startDate={new Date("Wed Sep 28 2022")}
+                startDate={new Date("Mon Oct 17 2022")}
                 // Date display format
                 dateFormat={'M/D ddd'}
                 // How many days to display on the heatmap
@@ -95,23 +95,23 @@ class App extends React.Component {
               <ScheduleSelector
                 // Hardcoded availability 
                 selection={[
-                  new Date("Wed Sep 28 2022 09:00:00"),
-                  new Date("Wed Sep 28 2022 09:30:00"),
-                  new Date("Wed Sep 28 2022 10:00:00"),
-                  new Date("Wed Sep 28 2022 10:30:00"),
-                  new Date("Wed Sep 28 2022 11:00:00"),
-                  new Date("Wed Sep 28 2022 11:30:00"),
-                  new Date("Fri Sep 30 2022 09:00:00"),
-                  new Date("Fri Sep 30 2022 09:30:00"),
-                  new Date("Fri Sep 30 2022 10:00:00"),
-                  new Date("Fri Sep 30 2022 10:30:00"),
-                  new Date("Fri Sep 30 2022 11:30:00"),
-                  new Date("Fri Sep 30 2022 12:00:00"),
-                  new Date("Sun Oct 02 2022 09:00:00"),
-                  new Date("Sun Oct 02 2022 09:30:00"),
-                  new Date("Sun Oct 02 2022 10:00:00")
+                  new Date("Mon Oct 17 2022 09:00:00"),
+                  new Date("Mon Oct 17 2022 09:30:00"),
+                  new Date("Mon Oct 17 2022 10:00:00"),
+                  new Date("Mon Oct 17 2022 10:30:00"),
+                  new Date("Mon Oct 17 2022 11:00:00"),
+                  new Date("Mon Oct 17 2022 11:30:00"),
+                  new Date("Wed Oct 19 2022 09:00:00"),
+                  new Date("Wed Oct 19 2022 09:30:00"),
+                  new Date("Wed Oct 19 2022 10:00:00"),
+                  new Date("Wed Oct 19 2022 10:30:00"),
+                  new Date("Wed Oct 19 2022 11:30:00"),
+                  new Date("Wed Oct 19 2022 12:00:00"),
+                  new Date("Fri Oct 21 2022 09:00:00"),
+                  new Date("Fri Oct 21 2022 09:30:00"),
+                  new Date("Fri Oct 21 2022 10:00:00")
                 ]}
-                startDate={new Date("Wed Sep 28 2022")}
+                startDate={new Date("Mon Oct 17 2022")}
                 dateFormat={'M/D ddd'}
                 numDays={5}
                 minTime={9}
@@ -143,22 +143,22 @@ class App extends React.Component {
               <ScheduleSelector
                 // Hardcoded availability 
                 selection={[
-                  new Date("Wed Sep 28 2022 09:00:00"),
-                  new Date("Wed Sep 28 2022 09:30:00"),
-                  new Date("Wed Sep 28 2022 10:00:00"),
-                  new Date("Wed Sep 28 2022 10:30:00"),
-                  new Date("Fri Sep 30 2022 09:00:00"),
-                  new Date("Fri Sep 30 2022 09:30:00"),
-                  new Date("Fri Sep 30 2022 10:00:00"),
-                  new Date("Fri Sep 30 2022 11:30:00"),
-                  new Date("Fri Sep 30 2022 12:00:00"),
-                  new Date("Fri Sep 30 2022 14:30:00"),
-                  new Date("Fri Sep 30 2022 15:00:00"),
-                  new Date("Sun Oct 02 2022 09:00:00"),
-                  new Date("Sun Oct 02 2022 09:30:00"),
-                  new Date("Sun Oct 02 2022 10:00:00")
+                  new Date("Mon Oct 17 2022 09:00:00"),
+                  new Date("Mon Oct 17 2022 09:30:00"),
+                  new Date("Mon Oct 17 2022 10:00:00"),
+                  new Date("Mon Oct 17 2022 10:30:00"),
+                  new Date("Wed Oct 19 2022 09:00:00"),
+                  new Date("Wed Oct 19 2022 09:30:00"),
+                  new Date("Wed Oct 19 2022 10:00:00"),
+                  new Date("Wed Oct 19 2022 11:30:00"),
+                  new Date("Wed Oct 19 2022 12:00:00"),
+                  new Date("Wed Oct 19 2022 14:30:00"),
+                  new Date("Wed Oct 19 2022 15:00:00"),
+                  new Date("Fri Oct 21 2022 09:00:00"),
+                  new Date("Fri Oct 21 2022 09:30:00"),
+                  new Date("Fri Oct 21 2022 10:00:00")
                 ]}
-                startDate={new Date("Wed Sep 28 2022")}
+                startDate={new Date("Mon Oct 17 2022")}
                 dateFormat={'M/D ddd'}
                 numDays={5}
                 minTime={9}
@@ -189,20 +189,20 @@ class App extends React.Component {
               <ScheduleSelector
                 // Hardcoded availability 
                 selection={[
-                  new Date("Wed Sep 28 2022 09:00:00"),
-                  new Date("Wed Sep 28 2022 09:30:00"),
-                  new Date("Fri Sep 30 2022 09:00:00"),
-                  new Date("Fri Sep 30 2022 09:30:00"),
-                  new Date("Fri Sep 30 2022 10:00:00"),
-                  new Date("Fri Sep 30 2022 10:30:00"),
-                  new Date("Fri Sep 30 2022 11:00:00"),
-                  new Date("Fri Sep 30 2022 11:30:00"),
-                  new Date("Fri Sep 30 2022 12:00:00"),
-                  new Date("Sun Oct 02 2022 09:00:00"),
-                  new Date("Sun Oct 02 2022 09:30:00"),
-                  new Date("Sun Oct 02 2022 10:00:00")
+                  new Date("Mon Oct 17 2022 09:00:00"),
+                  new Date("Mon Oct 17 2022 09:30:00"),
+                  new Date("Wed Oct 19 2022 09:00:00"),
+                  new Date("Wed Oct 19 2022 09:30:00"),
+                  new Date("Wed Oct 19 2022 10:00:00"),
+                  new Date("Wed Oct 19 2022 10:30:00"),
+                  new Date("Wed Oct 19 2022 11:00:00"),
+                  new Date("Wed Oct 19 2022 11:30:00"),
+                  new Date("Wed Oct 19 2022 12:00:00"),
+                  new Date("Fri Oct 21 2022 09:00:00"),
+                  new Date("Fri Oct 21 2022 09:30:00"),
+                  new Date("Fri Oct 21 2022 10:00:00")
                 ]}
-                startDate={new Date("Wed Sep 28 2022")}
+                startDate={new Date("Mon Oct 17 2022")}
                 dateFormat={'M/D ddd'}
                 numDays={5}
                 minTime={9}
@@ -233,25 +233,25 @@ class App extends React.Component {
               <ScheduleSelector
                 // Hardcoded availability 
                 selection={[
-                  new Date("Fri Sep 30 2022 11:30:00"),
-                  new Date("Fri Sep 30 2022 12:00:00"),
-                  new Date("Sun Oct 02 2022 09:00:00"),
-                  new Date("Sun Oct 02 2022 09:30:00"),
-                  new Date("Sun Oct 02 2022 10:00:00"),
-                  new Date("Fri Sep 30 2022 11:30:00"),
-                  new Date("Fri Sep 30 2022 12:00:00"),
-                  new Date("Fri Sep 30 2022 12:30:00"),
-                  new Date("Sun Oct 02 2022 09:30:00"),
-                  new Date("Sun Oct 02 2022 12:00:00"),
-                  new Date("Sun Oct 02 2022 12:30:00"),
-                  new Date("Sun Oct 02 2022 13:00:00"),
-                  new Date("Sun Oct 02 2022 13:30:00"),
-                  new Date("Sun Oct 02 2022 14:00:00"),
-                  new Date("Sun Oct 02 2022 14:30:00"),
-                  new Date("Sun Oct 02 2022 15:00:00"),
-                  new Date("Sun Oct 02 2022 15:30:00"),
+                  new Date("Web Oct 19 2022 11:30:00"),
+                  new Date("Web Oct 19 2022 12:00:00"),
+                  new Date("Fri Oct 21 2022 09:00:00"),
+                  new Date("Fri Oct 21 2022 09:30:00"),
+                  new Date("Fri Oct 21 2022 10:00:00"),
+                  new Date("Web Oct 19 2022 11:30:00"),
+                  new Date("Web Oct 19 2022 12:00:00"),
+                  new Date("Web Oct 19 2022 12:30:00"),
+                  new Date("Fri Oct 21 2022 09:30:00"),
+                  new Date("Fri Oct 21 2022 12:00:00"),
+                  new Date("Fri Oct 21 2022 12:30:00"),
+                  new Date("Fri Oct 21 2022 13:00:00"),
+                  new Date("Fri Oct 21 2022 13:30:00"),
+                  new Date("Fri Oct 21 2022 14:00:00"),
+                  new Date("Fri Oct 21 2022 14:30:00"),
+                  new Date("Fri Oct 21 2022 15:00:00"),
+                  new Date("Fri Oct 21 2022 15:30:00"),
                 ]}
-                startDate={new Date("Wed Sep 28 2022")}
+                startDate={new Date("Mon Oct 17 2022")}
                 dateFormat={'M/D ddd'}
                 numDays={5}
                 minTime={9}
