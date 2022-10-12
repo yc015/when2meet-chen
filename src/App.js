@@ -282,7 +282,7 @@ class App extends React.Component {
               <ScheduleSelector
                 // Display the user's selection 
                 selection={this.state.schedule}
-                startDate={new Date("Wed Sep 28 2022")}
+                startDate={new Date("Mon Oct 17 2022")}
                 dateFormat={'M/D ddd'}
                 numDays={5}
                 minTime={9}
